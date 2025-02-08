@@ -64,17 +64,33 @@
 // hobbies={{"playing","sleeping","eating"}}
 // /> */}
 
-import React from 'react'
-import CBCStateEx from './stateexample/CBCStateEx'
-const App = () => {
+// import React from 'react'
+// import FBCStateEx from './stateexample/FBCStateEx'
+// const App = () => {
+//   return (
+//     <div>
+//       <FBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import './App.css';
+import MyForm from './components/myForm';
+
+
+
+function App() {
   return (
-    <div>
-      <CBCStateEx/>
-    </div>
-  )
+    <div className="App">
+     <MyForm></MyForm>
+     </div>
+  );
 }
 
-export default App
+export default App;
 
 
 

@@ -8,6 +8,8 @@
   //);
 //}
 
+import RefExamples from "./hookexamples/RefExamples";
+
 //export default App;
 
 
@@ -77,15 +79,12 @@
 // export default App
 
 
-import './App.css';
-import MyForm from './components/myForm';
-
-
+//import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <MyForm></MyForm>
+      <RefExamples/>
      </div>
   );
 }

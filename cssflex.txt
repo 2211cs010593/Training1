@@ -1,0 +1,16 @@
+css Flex:
+---------
+1.moving of element with respect to the main axis is called css Flex
+2.css Flex is one-dimensional
+3.by css flex is responsive
+4. To work with flex parent and child is
+
+
+
+
+css flex properties:
+--------------------
+
+
+
+1>align item
